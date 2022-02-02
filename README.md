@@ -24,3 +24,6 @@ logger.debug("Hello world.");
   "context" : "default"
 }
 ```
+// JZ
+set java_home=C:\JDK\jdk1.7.0_79
+mvn exec:java -Dexec.mainClass="com.mathieularose.Main"
