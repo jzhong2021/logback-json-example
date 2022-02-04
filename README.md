@@ -26,4 +26,7 @@ logger.debug("Hello world.");
 ```
 // JZ
 set java_home=C:\JDK\jdk1.7.0_79
+set java_home=C:\JDK\jdk-17.0.2
+
 mvn exec:java -Dexec.mainClass="com.mathieularose.Main"
+mvn compile exec:java -Dexec.mainClass="com.mathieularose.Main"
